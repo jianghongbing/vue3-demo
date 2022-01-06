@@ -1,6 +1,6 @@
 <template>
   <header>
-    {{title}}
+    {{ title }}
   </header>
 </template>
 
