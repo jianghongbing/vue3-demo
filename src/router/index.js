@@ -22,6 +22,11 @@ const routes = [
     name: 'reactive',
     component: () => import('../views/Reactive'),
   },
+  {
+    path: '/refs',
+    name: 'refs',
+    component: () => import('../views/Refs'),
+  },
 ]
 
 const router = createRouter({

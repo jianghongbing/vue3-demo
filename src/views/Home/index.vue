@@ -28,6 +28,10 @@ export default {
           title: 'reactive',
           path: '/reactive',
         },
+        {
+          title: 'refs',
+          path: '/refs',
+        },
       ],
     }
   },
