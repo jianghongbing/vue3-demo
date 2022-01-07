@@ -8,9 +8,14 @@
 export default {
   name: 'v3-header',
   props: {
-    title: {
-      type: String,
-      default: 'Vue3',
+    // title: {
+    //   type: String,
+    //   default: 'Vue3',
+    // },
+  },
+  computed: {
+    title() {
+      return this.$route.name || 'Vue3'
     },
   },
 }

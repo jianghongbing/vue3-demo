@@ -17,6 +17,11 @@ const routes = [
     name: 'setup',
     component: () => import('../views/Setup'),
   },
+  {
+    path: '/reactive',
+    name: 'reactive',
+    component: () => import('../views/Reactive'),
+  },
 ]
 
 const router = createRouter({

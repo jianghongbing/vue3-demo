@@ -24,6 +24,10 @@ export default {
           title: 'setup',
           path: '/setup',
         },
+        {
+          title: 'reactive',
+          path: '/reactive',
+        },
       ],
     }
   },
