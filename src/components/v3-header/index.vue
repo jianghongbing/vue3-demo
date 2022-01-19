@@ -25,6 +25,7 @@ export default {
 @import '@/scss/variables.scss';
 header {
   position: sticky;
+  top: 0;
   height: 40px;
   background: $bg1;
   color: $tc4;
