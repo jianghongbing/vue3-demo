@@ -33,6 +33,10 @@ export default {
           path: '/refs',
         },
         {
+          title: 'computed',
+          path: '/computed',
+        },
+        {
           title: 'watch',
           path: '/watch',
         },
