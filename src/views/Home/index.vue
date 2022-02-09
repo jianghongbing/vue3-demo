@@ -40,6 +40,10 @@ export default {
           title: 'watch',
           path: '/watch',
         },
+        {
+          title: 'props',
+          path: '/props',
+        },
       ],
     }
   },

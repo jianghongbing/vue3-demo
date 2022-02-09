@@ -37,6 +37,11 @@ const routes = [
     name: 'computed',
     component: () => import('../views/Computed'),
   },
+  {
+    path: '/props',
+    name: 'props',
+    component: () => import('../views/Props'),
+  },
 ]
 
 const router = createRouter({
