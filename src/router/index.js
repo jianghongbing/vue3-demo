@@ -42,6 +42,11 @@ const routes = [
     name: 'props',
     component: () => import('../views/Props'),
   },
+  {
+    path: '/setupScript',
+    name: 'setupScript',
+    component: () => import('../views/SetupScript'),
+  },
 ]
 
 const router = createRouter({

@@ -44,6 +44,10 @@ export default {
           title: 'props',
           path: '/props',
         },
+        {
+          title: 'setup script',
+          path: 'setupScript',
+        },
       ],
     }
   },
